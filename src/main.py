@@ -24,7 +24,7 @@ def main(df_transactions, date, user_currencies, user_stocks):
             "cards": cards,
             "top_transactions": top_trans,
             "currency_rates": currency_rates,
-            # "stock_prices": stock_prices,
+            "stock_prices": stock_prices,
         },
         indent=4,
         ensure_ascii=False,
